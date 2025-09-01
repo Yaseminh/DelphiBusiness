@@ -1,5 +1,14 @@
 # FizzBuzz Project
 
+## Concepts Applied in This Project
+
+This project also demonstrates several **key programming concepts** often used in real-world applications:
+
+- **Dependency Injection (DI):** Promotes loose coupling by injecting dependencies rather than creating them inside classes.
+- **Singleton Pattern:** Ensures a class has only one instance and provides a global point of access to it.
+- **Inversion of Control (IoC):** The control of object creation and dependency management is transferred from the class itself to a container or framework.
+- **Junior-Level Testing:** Basic unit tests are included to verify functionality, ensuring code correctness and reliability.
+
 ## Overview
 This is a simple **FizzBuzz** implementation in Java. The project is designed as a **junior-level exercise** to demonstrate basic programming skills, such as loops, conditionals, and modular code structure.
 
