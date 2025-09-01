@@ -6,9 +6,14 @@ import org.example.service.FizzBuzzPrinter;
 
 public class Main {
     public static void main(String[] args) {
-        // Dependency Injection using interface
         IEvaluator evaluator = FizzBuzzEvaluator.getInstance();
         FizzBuzzPrinter printer = new FizzBuzzPrinter(evaluator);
+
+        System.out.println("Normal mode:");
+        printer.print(1, 100);
+
+        System.out.println("\nSuppression mode (FizzBuzz suppressed):");
+        printer.setSuppressFizzBuzz(true);
         printer.print(1, 100);
     }
 }
