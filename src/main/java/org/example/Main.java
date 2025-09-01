@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Normal mode:");
         printer.print(1, 100);
 
-        System.out.println("\nSuppression mode (FizzBuzz suppressed):");
+        System.out.println("\nSuppression mode (FizzBuss suppressed):");
         printer.setSuppressFizzBuzz(true);
         printer.print(1, 100);
     }
