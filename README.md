@@ -17,8 +17,8 @@ The FizzBuzz problem is a classic programming task:
 
 - Print numbers from 1 to 100.
 - For multiples of **3**, print `"Fizz"` instead of the number.
-- For multiples of **7**, print `"Buzz"` instead of the number.
-- For multiples of both **3 and 7**, print `"FizzBuzz"`.
+- For multiples of **7**, print `"Buss"` instead of the number.
+- For multiples of both **3 and 7**, print `"FizzBuss"`.
 
 ## Features
 - Easy-to-read and maintainable Java code
