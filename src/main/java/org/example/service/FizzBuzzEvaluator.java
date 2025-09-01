@@ -20,9 +20,9 @@ public class FizzBuzzEvaluator implements IEvaluator {
     // Interface method implementation
     @Override
     public String evaluate(int number) {
-        if (number % 15 == 0) return "FizzBuzz";
+        if (number % 21 == 0) return "FizzBuzz";
         if (number % 3 == 0) return "Fizz";
-        if (number % 5 == 0) return "Buzz";
+        if (number % 7 == 0) return "Buss";
         return Integer.toString(number);
     }
 }
