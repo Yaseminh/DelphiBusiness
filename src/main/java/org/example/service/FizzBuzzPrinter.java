@@ -10,7 +10,7 @@ public class FizzBuzzPrinter {
         this.evaluator = evaluator;
     }
 
-    // Enable/disable suppression of only FizzBuzz
+    // Enable/disable suppression of only FizzBuss
     public void setSuppressFizzBuzz(boolean suppress) {
         this.suppressFizzBuzz = suppress;
     }
@@ -19,8 +19,8 @@ public class FizzBuzzPrinter {
         for (int i = start; i <= end; i++) {
             String result = evaluator.evaluate(i);
 
-            if (suppressFizzBuzz && "FizzBuzz".equals(result)) {
-                // Instead of printing "FizzBuzz", print the number
+            if (suppressFizzBuzz && "FizzBuss".equals(result)) {
+                // Instead of printing "FizzBuss", print the number
                 System.out.println(i);
             } else {
                 System.out.println(result);

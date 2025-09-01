@@ -29,8 +29,8 @@ public class FizzBuzzServiceTest {
 
     @Test
     void testFizzBuzz() {
-        assertEquals("FizzBuzz", fizzBuzzEvaluator.evaluate(21));
-        assertEquals("FizzBuzz", fizzBuzzEvaluator.evaluate(42));
+        assertEquals("FizzBuss", fizzBuzzEvaluator.evaluate(21));
+        assertEquals("FizzBuss", fizzBuzzEvaluator.evaluate(42));
     }
 
     @Test
